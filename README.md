@@ -2,6 +2,11 @@
 # Baysian-Truth-Serum-Unsupervised-ML
 Using the Baysian Truth Serum to create an Unsupervised Machine learning algorithm based on units which indepentently maximize mutual inforamation. This project was developed in the MIT Sloan Neuroeconomics Lab by [Drazen Prelec](https://economics.mit.edu/faculty/dprelec) and [Stuart Rucker](stuartrucker.github.io).
 
+
+## Demo Video:
+Here, weights of the network (each bar) are maximized using gradient descent. Each of the 8 grouping of red, greed, blue, and purple bars represents how reactive the 4 outputs are to the 8 stimuli respectively. Notice how each of the four output nodes (red, green, blue, purple) responds differently to the inputs. This is because each output node is working to maximize the information that it conveys, leading to perfect mutual information between the 4 outputs and 8 inputs)] 
+![Weights Updating](https://i.imgur.com/MUQRnXS.gif)
+
 ## Background Theory:
 BTS is a scoring system for eliciting and evaluating subjective opinions from a group of respondents, in situations where the user of the method has no independent means of evaluating respondents’ honesty or their ability. It leverages respondents’ predictions about how other respondents will answer the same questions. Through these predictions, respondents reveal their meta-knowledge, which is knowledge of what other people know. 
 
@@ -19,8 +24,7 @@ PDFs describing the approach Mathematically:
  - [Basic Theory](https://github.com/StuartRucker/Baysian-Truth-Serum-Unsupervised-ML/blob/master/theoretical%20notes%20pdfs/BTSAlgorithm.pdf)
  - [Theory Applied to Datasets of Images](https://github.com/StuartRucker/Baysian-Truth-Serum-Unsupervised-ML/blob/master/theoretical%20notes%20pdfs/BTSNMarch23EntropicFormulation.pdf)
 
-**Figure:** Weights of the network are maximized using gradient descent. Each grouping of red, greed, blue, and purple bars represents the way one of 4 output nodes responds to one of the 8 stimuli. Notice how each of the four output nodes (red, green, blue, purple) responds differently to the inputs. This is because each output node is working to maximize the information that it conveys, leading to perfect mutual information between the 4 outputs and 8 inputs)] 
-![enter image description here](https://i.imgur.com/MUQRnXS.gif)
+
 
 ## Important Files
 
