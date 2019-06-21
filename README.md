@@ -1,6 +1,6 @@
 
 # Baysian-Truth-Serum-Unsupervised-ML
-Using the Baysian Truth Serum to create an Unsupervised Machine learning algorithm based on units which indepentently maximize mutual inforamation. This project was developed in the MIT Sloan Neuroeconomics Lab by [Drazen Prelec](https://economics.mit.edu/faculty/dprelec) and [Stuart Rucker](stuartrucker.github.io).
+Using the Baysian Truth Serum to create an Unsupervised Machine learning algorithm based on units which indepentently maximize mutual inforamation. This project was developed in the MIT Sloan Neuroeconomics Lab by [Drazen Prelec](https://economics.mit.edu/faculty/dprelec) and [Stuart Rucker](stuartrucker.github.io). All code is in python, and optimization is using Tensorflow.
 
 ## Important Files
 - [Simple](https://github.com/StuartRucker/Baysian-Truth-Serum-Unsupervised-ML/blob/master/Simple.ipynb) Demonstrates a simple application of the theory with theoretical formulas interspersed within the code.
